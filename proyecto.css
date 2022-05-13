@@ -43,14 +43,11 @@ a:hover {
     align-items: center;
 }
 .presentacion {
-    max-width: 500px;
-    height: 800px;
-    background-color: rgb(255, 255, 255);
+    padding: 200px 150px 150px 150px;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
-    padding: 10px;
-    margin-left: 20px;
+    justify-content: space-between;
 }
 .imagen { 
     max-width: 500px;
@@ -60,8 +57,12 @@ img {
     width: 100%;
 }
 .textos { 
+    width: 100%;
+    max-width: 500px;
+    display: flex;
     flex-direction: column;
-    line-height: 1.5;
+    align-items: flex-start;
+    text-align: left;
 }
 .h1-1 {
     font-size: 60px;
