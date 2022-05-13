@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="proyecto.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200&family=Montserrat:wght@300;800&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- ****************************Comienzo del Header****************************** -->
+    <header> 
+        <div class="menu">
+            <nav id="menu-nav">
+                <il class="nav-menu"> <a  href="#top"> HOLA</a></il>
+                <il class="nav-menu"> <a href="#conocimientos"> CONOCIMIENTOS </a></il>
+                <il class="nav-menu"><a href="#proyectos"> PROYECTOS</a></il>
+                <il class="nav-menu">
+                    <div class="button"><a href="#contacto"> CONTACTO</a></div>
+            </nav>
+        </div>
+    </header>
+<!-- ******************************Fin del Header****************************** -->
+<!-- ******************************Comienzo de la Seccion Presentacion****************************** -->
+    <section class="presentacion">
+        <div class="textos">
+            <h2 class="h2">¡Hola! Soy</h2>
+            <h1 style="font-weight: 900;" class="h1-1">Cecilia Elejanagoitia</h1>
+            <h3 class="h3">Estudiante y futura programadora</h3>
+            <a href="#proyectos" class="boton"> LO QUE HAGO </a>
+        </div>
+        <img src="undraw_career_development_re_sv91.svg" class="imagen">
+    </section>
+<!-- ******************************Fin de la Seccion Presentacion****************************** -->
+<!-- ******************************Comienzo de la Seccion Conocimientos****************************** -->
+    <section class="contenedor-conocimientos" id="conocimientos">
+        <div class="contenedor">
+            <h1 class="h1-2">Mis conocimientos</h1>
+            <p>Aprendizajes obtenidos en lo que va del curso front-end de ADAITW</p>
+        </div>
+        <div class="contenedor-tarjetas">
+            <div class="tarjeta">
+                <div class="icono1"><i class="fa-brands fa-html5"></i></div>
+                <div> <p>HTML
+                    </p>
+
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="icono1"><i class="fa-brands fa-css3-alt"></i></div>
+                <div> <p>CSS
+                    </p>
+
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="icono1"><i class="fa-brands fa-github"></i></div>
+                <div> <p>GIT
+                    </p>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+<!-- ******************************Fin de la Seccion Conocimientos****************************** -->
+<!-- ******************************Comienzo de la Seccion Cita****************************** -->
+    <div class="contenedor-cita">
+        <div class="cita">
+            <div class="icono2"><i class="fa-solid fa-quote-left"></i></div>
+            <p>Para llegar donde nunca antes has llegado, tendrás que esforzarte como nunca antes lo has hecho</p>
+            <h2>Alguien</h2>
+        </div>
+    </div>
+<!-- ******************************Fin de la Seccion Cita****************************** -->
+<!-- ******************************Comienzo de la Seccion Proyectos****************************** -->
+    <section class="mis-proyectos" id="proyectos">
+        <div class="contenedor">
+            <h1 class="h1-3">Mis Proyectos</h1>
+            <p>Diferentes proyectos creados con anterioridad</p>
+        </div>
+        <div class="contenedor-proyecto">
+            <div class="proyecto">
+                <img src="undraw_career_development_re_sv91.svg">
+                <p>Portfolio</p>
+            </div>
+        </div>
+    </section>
+<!-- ******************************Fin de la Seccion Proyectos******************************
+******************************Comienzo Seccion Contactos****************************** -->
+    <section class="contenedor-formulario">
+        <div class="mi-formulario">
+            <div class="formulario">
+                <h1 class="h1-4">Contactame</h1>
+                <p class="p1">Nuevas formas de contactarte conmigo directamente!</p>
+                <div class="redes">
+                    <div class="icono3"> 
+                        <i class="fa-brands fa-twitter"></i>
+                        <a href="https://twitter.com/CeElejanagoitia">@Ce_Elejanagoitia</a>
+                    </div>
+                    <div class="icono3"> 
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <a href="https://www.linkedin.com/in/cecilia-elejanagoitia-5274a5214/">Cecilia Elejanagoitia</a>
+                    </div>
+                    <div class="icono3">
+                        <i class="fa-solid fa-envelope"></i>
+                        <a href="https://mail.google.com/mail/u/0/#inbox">ceciliaelejanagoitia@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="formulario">
+                <h1 class="h1-4">Escribeme</h1>
+                <form class="datos">
+                    <label for="name"> Nombre*</label> 
+                    <input type="text" id="nombre" placeholder="p.ej.: Cecilia" size="15"> 
+
+                    <label for="username">Apellido*</label> 
+                    <input type="text" id="apellido" placeholder="p.ej.: Elejanagoitia" size="20"> 
+                    
+                    <label for="email">Email*</label> 
+                    <input type="email" id="mail" placeholder="p. ej.: ceciliaelejanagoitia@gmail.com" size="30"> 
+
+                    <label for="message">Mensaje*</label> 
+                    <textarea name="message" id="mensaje" cols="60" rows="10" placeholder="Escriba un mensaje aquí"></textarea>
+
+                    <div class="btn">
+                        <button>Enviar</button>
+                    </div>
+                </form>
+
+                 
+            </div>
+        </div>
+    </section>
+<!-- ******************************Fin de la Seccion Contactos****************************** -->
+<!-- ******************************Comienzo del Footer****************************** -->
+    <footer>
+        <nav class="nav-pie">
+            <ul class="pie-pagina">
+                <li class="pie-menu"><a href="#top"> HOLA</a></li>
+                <li class="pie-menu"><a href="#conocimientos"> CONOCIMIENTOS </a></li>
+                <li class="pie-menu"><a href="#proyectos"> PROYECTOS</a></li>
+                <li class="pie-menu"><a href="#contacto"> CONTACTO</a></li>
+            </ul>
+        </nav>
+        <div class="contenedor-iconos">
+            <ul>
+                <il class="icono-pie"><a href="https://twitter.com/CeElejanagoitia"><i class="fa-brands fa-twitter"></i></a></il>
+             
+                <il class="icono-pie"><a href="https://www.linkedin.com/in/cecilia-elejanagoitia-5274a5214/"><i class="fa-brands fa-linkedin-in"></i></a></il>
+            
+                <il class="icono-pie"><a href="https://mail.google.com/mail/u/0/#inbox"><i class="fa-solid fa-envelope"></i></a></il>
+            </ul>
+        </div>
+        Hecho por Cecilia Elejanagoitia
+    </footer>
+<!-- ******************************Fin del Footer****************************** -->
+</body>
+</html>

@@ -1,0 +1,286 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: #c28847;
+}
+
+#menu-nav {
+    width: 100%;
+    height: 90px;
+    padding-right: 140px;
+    background-color: white;
+    box-shadow: 0px 0px 29px 0px rgb(219, 214, 214) ;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+.nav-menu {
+    margin: 0 1.5em;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    font-weight: lighter;
+}
+.button {
+    width: 150%;
+    height: 40px;
+    text-align: center;
+    background-color: #613809;
+    border-radius: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.presentacion {
+    max-width: 500px;
+    height: 800px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 20px;
+}
+.imagen { 
+    max-width: 500px;
+}
+img {
+    display: block;
+    width: 100%;
+}
+.textos { 
+    flex-direction: column;
+    line-height: 1.5;
+}
+.h1-1 {
+    font-size: 60px;
+    color: #c28847;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1;
+}
+.h2 {
+    font-size: 30px;
+    color: rgb(46, 45, 45);
+}
+
+.h3 {
+    font-size: 20px;
+    color: rgb(43, 42, 42);
+    font-weight: lighter;
+    line-height: 2.5;
+}
+.boton {
+    background-color: #8338ec;
+    color: white;
+    padding: 15px 40px;
+    border-radius: 100px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-conocimientos, .mis-proyectos {
+    background-color: #f6f7fb;
+    justify-content: center;
+    padding: 110px 40px 130px;
+    text-align: center;
+}
+.contenedor {
+    color: black;
+}
+.h1-2, .h1-3, .h1-4 {
+    font-size: 45px;
+    font-weight: bold;
+}
+p {
+    margin: 14px;
+}
+.contenedor-tarjetas {
+    margin: 70px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tarjeta {
+    width: 250px;
+    background-color: white;
+    font-weight: bold;
+    border: rgb(202, 201, 201) solid 1px; 
+    border-radius: 5px;
+    font-size: 16px
+}
+.tarjeta:hover  {
+    border-color: #e9ac67;
+    color: #e9ac67;
+}
+.tarjeta:active {
+    box-shadow: 0px 0px 10px 0px #e9ac67 ;
+}
+div.icono1 {
+    padding: 30px;
+    font-size: 70px;
+}
+.contenedor-cita {
+    height: 500px;
+    text-align: center;
+    background-color: #c28847;
+    padding: 130px;
+    line-height: 3;
+}
+div.icono2 {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+}
+.mis-proyectos {
+    background-color: white;
+}
+.contenedor-proyecto  {
+    margin: 40px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.proyecto:hover {
+    border-color: #e9ac67;
+    color: #e9ac67;
+}
+.proyecto:active {
+    box-shadow: 0px 0px 10px 0px #e9ac67 ;
+}
+.proyecto {
+    width: 370px;
+    height: 250px;
+    background-color: white;
+    font-weight: bold;
+    border: rgb(202, 201, 201) solid 1px; 
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contenedor-formulario {
+    background-color: #f6f7fb;
+    padding: 200px 120px 120px 120px;
+}
+.mi-formulario {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 15px;
+    border: 1px solid #e0e0e0;
+    padding: 80px 30px 80px 30px;
+    justify-content: space-around;
+    line-height: 2.5;
+}
+.p1 {
+    margin: 0;
+}
+.redes {
+    justify-content: center;
+    line-height: 3;
+}
+.datos {
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+}
+.icono3 i {
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding-top: 6.5px;
+}
+.icono3:hover i{
+    background-color: #c28847;
+    border-radius: 50px;
+}
+input, textarea {
+    border-radius: 20px;
+    background-color: #f6f7fb;
+    border: 1px solid #f6f7fb;
+    font-size: 13px;
+    padding: 10px 15px;
+    display: flex;
+    width: 100%;
+}
+button {
+    border: none;
+    background-color: #613809;
+    border-radius: 100px;
+    padding: 15px 40px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    margin-top: 10px;
+}
+footer {
+    background-color: #613809;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+.nav-pie {
+    display: block;
+}
+.pie-pagina {
+    display: flex;
+    margin: 0;
+}
+ul {
+    list-style: none;
+}
+.pie-menu {
+    margin: 0 10px;
+}
+.contenedor-iconos {
+    display: flex;
+    margin: 30px;
+}
+.icono-pie i {
+    font-size: 20px;
+    background-color: #e9ac67;
+    border-radius: 50%;
+    padding: 10px;
+    margin: 20px;
+    border: #e9ac67 solid 1px;
+}
+.icono-pie:hover i{
+    background-color: transparent;
+}
+.icono-pie:active i {
+    box-shadow: 0px 0px 10px 0px #e9ac67 ;
+}
+@media(max-width:1100px){
+    .presentacion {background-color: aqua;}
+    .presentacion {flex-direction: column;}
+}
+@media(max-width:800px) {
+    .presentacion {background-color: gray ;}
+    .h1-1 {font-size: 50px;}
+    .h2 {font-size: 30px;} 
+    .boton {font-size: 15px;}
+}
+@media(max-width:600px){
+    .presentacion {background-color: rgb(242, 0, 255);}
+    .h1-1 {font-size: 40px;}
+    .h2 {font-size: 20px;} 
+    .boton {font-size: 10px;}
+}
+@media(max-width:400px){
+    .presentacion {background-color: rgb(30, 255, 0);}
+    .h1-1 {font-size: 30px;}
+    .h2 {font-size: 15px;}
+    .boton {font-size: 5px;}
+} 
