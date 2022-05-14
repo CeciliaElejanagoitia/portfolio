@@ -14,40 +14,52 @@ a:hover {
     color: #c28847;
 }
 
-#menu-nav {
+header {
     width: 100%;
-    height: 90px;
-    padding-right: 140px;
+    /* height: 90px; */
+    /* margin-top: 90px; */
+    padding: 25px 20px;
     background-color: white;
     box-shadow: 0px 0px 29px 0px rgb(219, 214, 214) ;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    position: fixed;
     font-family: 'Montserrat', sans-serif;
+    /* padding-right: 100px; */
+
+}
+.menu {
 }
 .nav-menu {
+    margin-top: 90px;
     margin: 0 1.5em;
     font-size: 16px;
     color: rgb(0, 0, 0);
     font-weight: lighter;
 }
-.button {
-    width: 150%;
-    height: 40px;
-    text-align: center;
+.boton-contacto {
     background-color: #613809;
-    border-radius: 35px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    border-radius: 100px;
+    padding: 15px 40px;
+}
+.abrir-menu {
+    display: none;
+    font-size: 16px;
+    margin: 0 15px;
+    font-family: 'Montserrat', sans-serif;
+    color: #2e2e31;
+    border: 0;
+    background: transparent;
+    padding:  6px;
+
 }
 .presentacion {
-    padding: 200px 150px 150px 150px;
+    padding: 150px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    min-height: calc(100vh - 90px);
 }
 .imagen { 
     max-width: 500px;
@@ -83,8 +95,8 @@ img {
     line-height: 2.5;
 }
 .boton {
-    background-color: #8338ec;
-    color: white;
+    background-color: #613809;
+    color: black;
     padding: 15px 40px;
     border-radius: 100px;
     font-weight: 500;
@@ -109,17 +121,20 @@ p {
     margin: 14px;
 }
 .contenedor-tarjetas {
-    margin: 70px;
+    margin-top: 40px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .tarjeta {
+    margin: 10px;
     width: 250px;
     background-color: white;
     font-weight: bold;
     border: rgb(202, 201, 201) solid 1px; 
     border-radius: 5px;
     font-size: 16px
+
 }
 .tarjeta:hover  {
     border-color: #e9ac67;
@@ -214,7 +229,7 @@ input, textarea {
     display: flex;
     width: 100%;
 }
-button {
+.button {
     border: none;
     background-color: #613809;
     border-radius: 100px;
@@ -264,24 +279,39 @@ ul {
     box-shadow: 0px 0px 10px 0px #e9ac67 ;
 }
 @media(max-width:1100px){
-    .presentacion {background-color: aqua;}
-    .presentacion {flex-direction: column;}
+    /* header {padding: 25px 20px;} */
+    .presentacion {background-color: aqua;
+        flex-direction: column;}
+
+    .textos {flex-direction: column;}
 }
 @media(max-width:800px) {
     .presentacion {background-color: gray ;}
+    .presentacion {flex-direction: column;}
+    .textos {flex-direction: column;}
     .h1-1 {font-size: 50px;}
     .h2 {font-size: 30px;} 
     .boton {font-size: 15px;}
 }
+@media(max-width:750px) {
+    .nav-menu {display: none;}
+    .abrir-menu {display: flex;}
+    /* .presentacion {padding: 0;} */
+}
 @media(max-width:600px){
     .presentacion {background-color: rgb(242, 0, 255);}
-    .h1-1 {font-size: 40px;}
+    .presentacion {flex-direction: column;}
+    .textos {flex-direction: column;}
+    .h1-1, .h1-2 {font-size: 40px;}
     .h2 {font-size: 20px;} 
     .boton {font-size: 10px;}
+    .contenedor-tarjetas {flex-direction: column;}
 }
 @media(max-width:400px){
+    .presentacion {flex-direction: column;}
+    .textos {flex-direction: column;}
     .presentacion {background-color: rgb(30, 255, 0);}
-    .h1-1 {font-size: 30px;}
+    .h1-1, .h1-2 {font-size: 30px;}
     .h2 {font-size: 15px;}
     .boton {font-size: 5px;}
 } 
