@@ -55,11 +55,10 @@ header {
 
 }
 .presentacion {
-    /* padding: 150px; */
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     min-height: calc(100vh - 90px);
     padding: 110px 40px 130px;
 }
