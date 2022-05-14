@@ -29,9 +29,9 @@
 <!-- ******************************Comienzo de la Seccion Presentacion****************************** -->
     <section class="presentacion">
         <div class="textos">
-            <h2 class="h2">¡Hola! Soy</h2>
+            <p class="h2">¡Hola! Soy</p>
             <h1 style="font-weight: 900;" class="h1-1">Cecilia Elejanagoitia</h1>
-            <h3 class="h3">Estudiante y futura programadora</h3>
+            <p class="h3">Estudiante y futura programadora</p>
             <a href="#proyectos" class="boton"> LO QUE HAGO </a>
         </div>
         <img src="undraw_career_development_re_sv91.svg" class="imagen">
@@ -71,13 +71,15 @@
     </section>
 <!-- ******************************Fin de la Seccion Conocimientos****************************** -->
 <!-- ******************************Comienzo de la Seccion Cita****************************** -->
-    <div class="contenedor-cita">
-        <div class="cita">
-            <div class="icono2"><i class="fa-solid fa-quote-left"></i></div>
-            <p>Para llegar donde nunca antes has llegado, tendrás que esforzarte como nunca antes lo has hecho</p>
-            <h2>Alguien</h2>
+   <section class="seccion-cita">
+        <div class="contenedor-cita">
+            <div class="cita">
+                <div class="icono2"><i class="fa-solid fa-quote-left"></i></div>
+                <p>Para llegar donde nunca antes has llegado, tendrás que esforzarte como nunca antes lo has hecho</p>
+                <h2>Alguien</h2>
+            </div>
         </div>
-    </div>
+    </section>
 <!-- ******************************Fin de la Seccion Cita****************************** -->
 <!-- ******************************Comienzo de la Seccion Proyectos****************************** -->
     <section class="mis-proyectos" id="proyectos">
@@ -99,30 +101,32 @@
             <div class="formulario">
                 <h1 class="h1-4">Contactame</h1>
                 <p class="p1">Nuevas formas de contactarte conmigo directamente!</p>
-                <div class="redes">
-                    <div class="icono3"> 
+                <ul class="redes">
+                    <li class="icono3"> 
                         <i class="fa-brands fa-twitter"></i>
-                        <a href="https://twitter.com/CeElejanagoitia">@Ce_Elejanagoitia</a>
-                    </div>
-                    <div class="icono3"> 
+                        <a href="https://twitter.com/CeElejanagoitia" class="usuarios">@Ce_Elejanagoitia</a>
+                    </li>
+                    <li class="icono3"> 
                         <i class="fa-brands fa-linkedin-in"></i>
-                        <a href="https://www.linkedin.com/in/cecilia-elejanagoitia-5274a5214/">Cecilia Elejanagoitia</a>
-                    </div>
-                    <div class="icono3">
+                        <a href="https://www.linkedin.com/in/cecilia-elejanagoitia-5274a5214/" class="usuarios">Cecilia Elejanagoitia</a>
+                    </li>
+                    <li class="icono3">
                         <i class="fa-solid fa-envelope"></i>
-                        <a href="https://mail.google.com/mail/u/0/#inbox">ceciliaelejanagoitia@gmail.com</a>
-                    </div>
-                </div>
+                        <a href="https://mail.google.com/mail/u/0/#inbox" class="usuarios">ceciliaelejanagoitia@gmail.com</a>
+                    </li>
+                </ul>
             </div>
             <div class="formulario">
                 <h1 class="h1-4">Escribeme</h1>
                 <form class="datos">
-                    <label for="name"> Nombre*</label> 
-                    <input type="text" id="nombre" placeholder="p.ej.: Cecilia" size="15"> 
+                    <div class="nombre-apellido">
+                        <label for="name"> Nombre*</label> 
+                        <input type="text" id="nombre" placeholder="p.ej.: Cecilia" size="15"> 
 
-                    <label for="username">Apellido*</label> 
-                    <input type="text" id="apellido" placeholder="p.ej.: Elejanagoitia" size="20"> 
-                    
+                        <label for="username">Apellido*</label> 
+                        <input type="text" id="apellido" placeholder="p.ej.: Elejanagoitia" size="20"> 
+                    </div>
+
                     <label for="email">Email*</label> 
                     <input type="email" id="mail" placeholder="p. ej.: ceciliaelejanagoitia@gmail.com" size="30"> 
 
