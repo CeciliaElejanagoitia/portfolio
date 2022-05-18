@@ -190,7 +190,10 @@ div.icono2 {
 }
 .contenedor-formulario {
     background-color: #f6f7fb;
-    padding-top: 200px;
+    padding: 200px 50px 100px 50px;
+}
+.formulario {
+    padding: 0 20px 0 20px;
 }
 .mi-formulario {
     display: flex;
@@ -309,9 +312,10 @@ ul li {
 @media(max-width:900px) {
     .mi-formulario {flex-direction: column;
     padding: 0 40px 120px;
-    border: 0;}
+    border: 0}
     .contenedor-formulario {width: 100%;
-        margin-bottom: 40px;}
+        margin-bottom: 40px;
+        padding: 0;}
     .formulario {display: flex;
         flex-wrap: wrap;}
 }
